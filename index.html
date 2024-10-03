@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+</head>
+
+<body>
+    |
+    <a href="">Updates</a>|
+    <a href="">About us</a>|
+    <a href="">Testmonials</a>|
+
+    <!--Header section starts-->
+    <header>
+        <h1>Website Design Questionnaire</h1>
+        <p>Please fill out this questionnaire to help us better understand your project requirements.</p>
+    </header>
+    <!--Header section ends-->
+    <!--Main section starts-->
+    <main>
+        <!--section 1 starts-->
+        <section>
+            <!--form element for collecting responses-->
+            <form action="submit-questionaire.ai" method="post" id=" questionnaire-form">
+                <h2>General Information</h2>
+                <!-- Input field for user to enter the name-->
+                <div>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <!-- Input field for user to enter the email-->
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <!-- Input field for user to enter the company-->
+                <div>
+                    <label for="company">Company: </label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+        </section>
+        <!--section 1 ends-->
+
+        <!--section 2 starts-->
+        <section>
+            <h2>Project Details</h2>
+
+            <div>
+                <!--Dropdown selection for project type-->
+                <label for="project type">Project Type </label>
+                <select name="project type" id="project type" required>
+                    <option value="">Select Project Type</option><!--Default option prompting selection-->
+                    <option value="website">Website</option>
+                    <option value="web-application">Web Application</option>
+                    <option value="e-commerce">E-commerce</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div>
+                <!-- Textarea for project description -->
+                <label for="project desc">Project Description: </label>
+                <textarea name="project desc" id="project desc" rows="4" required></textarea>
+            </div>
+
+            <div>
+                <!--Input field for the target audience-->
+                <label for="target audience">Target Audience: </label>
+                <input type="text" id="target audience" name="target audience" required>
+            </div>
+        </section>
+        <!--section 2 ends-->
+
+        <!--section 3 starts-->
+        <section>
+            <h2>Design Preferences</h2>
+
+            <div>
+                <!-- Input field for color scheme preferences -->
+                <label for="color scheme">Color Scheme: </label>
+                <input type="text" id="color scheme" name="color scheme" required>
+            </div>
+            <!-- Input field for font preferences -->
+            <div>
+                <label for="font pref">Font Preferences: </label>
+                <input type="text" id="font pref" name="font pref" required>
+            </div>
+            <!-- Input field for style preferences -->
+            <div>
+                <label for="style pref">Style Preferences: </label>
+                <input type="text" id="style pref" name="style pref" required>
+            </div>
+        </section>
+        <!--section 3 ends-->
+
+        <!--section 4 starts-->
+
+        <section>
+            <h2>Additional Information</h2>
+            <!-- Input field for budget with numeric input type -->
+            <div>
+                <label for="budget">Budget: </label>
+                <input type="number" id="budget" name="budget" min="0" step="1000" required>
+                <!--Required numeric inpurt with min value and step increment-->
+            </div>
+
+            <div>
+                <!-- Input field for project timeline -->
+                <label for="timeline">Timeline: </label>
+                <input type="text" id="timeline" name="timeline" required placeholder="e.g., 3 months">
+                <!-- Placeholder text to guide user input -->
+            </div>
+            <!-- Placeholder text to guide user input -->
+            <div>
+                <label for="additonal notes">Additional Notes: : </label>
+                <textarea name="additonal notes" id="additonal notes" rows="4" required></textarea>
+            </div>
+        </section>
+        <!--section 4 ends-->
+
+        <!-- Submit button to send the questionnaire data -->
+        <button type="submit">Submit Questionnaire</button>
+
+        </form> <!-- End of questionnaire form -->
+    </main>
+    <!--main section ends-->
+    <!--Footer starts-->
+    <Footer>
+        <p>&copy;2023 Questionnaire. All rights reserved. </p>
+    </Footer>
+</body>
+
+</html>
