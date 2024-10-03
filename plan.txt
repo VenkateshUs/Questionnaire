@@ -1,18 +1,43 @@
-header
-p
+Header
+    Website name
+    Intro
+ 
 
-section
-div
-h2
-label
+main
 
-div
-h3
-project
+ form for collecting user responses
 
-div
-h2
- input
+  General information
+        name
+        email
+        company
+
+  project Details
+    project type
+    project description
+    Target audience
 
 
+  Design prefences
+    color Scheme labels
+    Font preferences
+    Style preferences
 
+  Additonal information
+    Budget is as
+    Timeline
+    Additonal Notes
+
+forms ends
+   submit questionare button
+
+
+footer
+  2023 questionare
+
+
+new things learnt:
+ select Tags
+ rows attribute in textarea
+ step attribute in number input tags
+ placeholder attribute in input tag
